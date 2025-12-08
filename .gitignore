@@ -1,0 +1,55 @@
+# Python / FastAPI
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+env/
+.venv/
+venv/
+ENV/
+*.env
+.env.*
+!.env.example
+
+# Build / cache
+build/
+dist/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+develop-eggs/
+downloads/
+
+# Testing
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Node / React / Vite
+node_modules/
+dist/
+.vite/
+*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Optional DB / static
+*.sqlite3
+staticfiles/
